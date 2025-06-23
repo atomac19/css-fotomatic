@@ -1,8 +1,9 @@
 /* Universal Styles */
 
 html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-family: "Roboto";
+  font-size: 1rem;
+  color: #4A4A4A;
 }
 
 .main-content {
@@ -41,14 +42,13 @@ header {
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
-  height: 5.31rem;
-  border: 2px solid green; /* ERESE */
+  height: 5.3125rem;
+  align-content: center;
 }
 
 header .content {
   display: flex;
-  align-items: center;
-  padding: 1.875rem;
+  
 }
 
 header .logo {
@@ -56,7 +56,7 @@ header .logo {
   color: #4A4A4A;
   font-size: 1.5rem;
   font-family: "Roboto", monospace;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   padding-left: 1.875rem;
 }
 
@@ -124,18 +124,18 @@ header .mobile {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  height: 43.5rem;
   background-image: url("../images/banner-landingpage.jpg");
+  background-size: cover;
 }
 
 #sign-up-cta {
-  padding: 0 5rem 2.5rem 5rem;
-  border: solid 1px #979797;
+  padding: 0 5rem 3.5rem 5rem;
+  border: 0.0625rem solid #979797;
   border-radius: 4px;
-  background-color: #9dc20b;
-  margin-top: 10.625rem;
-  margin-left: 6.25rem;
-  padding-top: 2rem;
+  background-color: #9dc20a;
+  margin: 10.625rem 0 10.625rem 6.25rem;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #sign-up-cta .content {
@@ -157,6 +157,7 @@ header .mobile {
 
 #sign-up-cta span strong {
   font-weight: bold;
+  line-height: 1.4;
 }
 
 #sign-up-cta .cursive {
@@ -165,17 +166,19 @@ header .mobile {
 }
 
 #sign-up-cta .striking {
-  font-family: "Rubik", sans-serif;
+  font-family: "Rubik";
   padding-bottom: .75rem;
   color: white;
-  font-size: 3.125rem;;
-  line-height: 1.4;
+  font-size: 3.125rem;
   margin-bottom: 0.75px;
 }
 
 #sign-up-cta .button {
   margin-top: 1.625rem;
   padding: 1.25rem 7.25rem;
+  font-size: 1.25rem;
+  font-family: "Roboto";
+  font-weight: 400;
 }
 
 @media only screen and (max-width: 760px) {
