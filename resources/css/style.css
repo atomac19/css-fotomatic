@@ -232,27 +232,31 @@ header .mobile {
 #features-section {
   display: flex;
   justify-content: space-between;
-  padding: 4rem 5%;
+  padding: 4rem 5% 2.875rem 5%;
   background-color: #f3f3f3;
+  height: 39.6875rem;
 }
 
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 1.1875rem;
   background-color: white;
 }
 
-.feature .image-container {
+.feature .image-container img {
   width: 90%;
   height: 65%;
   margin: 0 auto;
 }
 
 .feature h2 {
+  padding-top: 2.5rem;
   padding-bottom: .5rem;
-  font-size: 2.25rem;
-  font-weight: bold;
+  font-family: "Roboto";
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
   color: #4a4a4a;
 }
 
@@ -261,6 +265,7 @@ header .mobile {
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
+  font-family: "Roboto";
 }
 
 @media only screen and (max-width: 890px) {
